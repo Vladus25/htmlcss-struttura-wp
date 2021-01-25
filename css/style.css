@@ -41,12 +41,19 @@ main{
   background-color: rgb(13, 184, 238);
 }
 
+/* Menu con float */
 .row::after{
   content: "";
   display: table;
   clear: both;
 }
 
+.contenitore{
+  height: 400px ;
+  width: 100%;
+  /* debug */
+  background-color: rgb(217, 28, 28);
+}
 
 /* footer */
 
