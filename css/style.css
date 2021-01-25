@@ -52,8 +52,67 @@ main{
   height: 400px ;
   width: 100%;
   /* debug */
-  background-color: rgb(217, 28, 28);
+  background-color: rgb(25, 21, 231);
 }
+
+/* Prova con padding */
+
+.content1{
+  padding: 20px 20px 20px 0;
+  height: 400px;
+  width: 25%;
+  float: left;
+  /* debug */
+  background-color:rgb(13, 184, 238);
+}
+
+.content2{
+  padding: 20px;
+  height: 400px;
+  width: 50%;
+  float: left;
+  /* debug */
+  background-color:rgb(13, 184, 238);
+}
+
+.content3{
+  padding: 20px 0px 20px 20px;
+  height: 400px;
+  width: 25%;
+  float: left;
+  /* debug */
+  background-color:rgb(13, 184, 238);
+}
+
+/* Prova con margin */
+
+/* .content1{
+  margin: 20px 20px 20px 0;
+  height: calc(400px - 40px);
+  width: calc(25% - 40px);
+  float: left; */
+  /* debug */
+  /* background-color:rgb(0, 0, 0);
+} */
+
+/* .content2{
+  margin: 20px;
+  height: calc(400px - 40px);
+  width: calc(50% - 40px);
+  float: left; */
+  /* debug */
+  /* background-color:rgb(0, 0, 0);
+} */
+
+/* .content3{
+  margin: 20px 0px 20px 20px;
+  height: calc(400px - 40px);
+  width: calc(25% - 40px);
+  float: left; */
+  /* debug */
+  /* background-color:rgb(0, 0, 0);
+} */
+
 
 /* footer */
 
@@ -61,5 +120,5 @@ main{
   height: 50px ;
   width: 100%;
   /* debug */
-  background-color: rgb(25, 21, 231);
+  background-color: rgb(159, 0, 139);
 }
